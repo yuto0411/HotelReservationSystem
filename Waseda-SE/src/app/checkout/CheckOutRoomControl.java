@@ -14,10 +14,10 @@ import domain.room.RoomException;
 
 /**
  * Control class for Check-out Customer
- * 
+ *
  */
 public class CheckOutRoomControl {
-	
+
 	public void checkOut(String roomNumber) throws AppException {
 		try {
 			//Clear room
@@ -51,3 +51,6 @@ public class CheckOutRoomControl {
 		return ManagerFactory.getInstance().getPaymentManager();
 	}
 }
+
+
+//試しにコメントを入れてみます。
