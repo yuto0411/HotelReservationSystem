@@ -51,7 +51,3 @@ public class CheckOutRoomControl {
 		return ManagerFactory.getInstance().getPaymentManager();
 	}
 }
-
-
-//試しにコメントを入れてみます
-//二つ目のコメント
