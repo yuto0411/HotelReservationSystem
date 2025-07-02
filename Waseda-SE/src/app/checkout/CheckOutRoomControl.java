@@ -53,4 +53,4 @@ public class CheckOutRoomControl {
 }
 
 
-//試しにコメントを入れてみます。
+//試しにコメントを入れてみます
