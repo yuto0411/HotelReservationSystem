@@ -20,10 +20,10 @@ public class CheckOutRoomForm {
 	private String roomNumber;
 
 	public void checkOut() throws AppException {
-	// 保持しているControlオブジェクトを取得する
-  	CheckOutRoomControl checkOutRoomControl = getCheckOutRoomControl();
-  	// ControlオブジェクトのcheckOutメソッドを、このフォームが持つroomNumberを引数にして呼び出す
-  	checkOutRoomControl.checkOut(roomNumber);
+		// 保持しているControlオブジェクトを取得する
+  		CheckOutRoomControl checkOutRoomControl = getCheckOutRoomControl();
+  		// ControlオブジェクトのcheckOutメソッドを、このフォームが持つroomNumberを引数にして呼び出す
+  		checkOutRoomControl.checkOut(roomNumber);
 	}
 
 	public String getRoomNumber() {
